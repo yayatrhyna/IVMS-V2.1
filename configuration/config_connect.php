@@ -1,9 +1,9 @@
 <?php
 
 error_reporting(E_ALL ^ E_DEPRECATED);
-$servername = "localhost";
+$servername = "db";
 $username = "root";
-$password = "";
+$password = "root";
 $dbname="IVMS";
 
       $koneksi = mysqli_connect('localhost', 'root', '');
